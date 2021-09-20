@@ -1,0 +1,12 @@
+.cover__title {
+  margin: 0 auto 32px;
+  padding: 0;
+  max-width: 560px;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  color: #fff;
+  z-index: 1;
+  pointer-events: none; /* позволяет ссылке быть кликабельной в пределах всего блока, не перекрываясь заголовком */
+}

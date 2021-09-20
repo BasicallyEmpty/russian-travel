@@ -1,0 +1,9 @@
+.cover__link {
+  text-decoration: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  z-index: 1;
+  max-width: inherit;
+  min-height: inherit;
+}
