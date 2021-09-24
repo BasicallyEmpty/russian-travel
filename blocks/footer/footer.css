@@ -1,10 +1,12 @@
 .footer {
   margin: 0 auto;
-  max-width: calc(100% - 48px * 2);
+  max-width: calc(100% - 48px * 2); /* позволяет плавно изменять ширину блока без использования margin, сохраняя отступ */
   min-height: 18px;
   display: flex;
   justify-content: space-between;
 }
+
+/* плавное изменение ширины блока и отступов без скачков */
 
 @media screen and (max-width: 864px) {
   .footer {

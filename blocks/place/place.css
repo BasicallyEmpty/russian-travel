@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 720px) {
   .place {
-    grid-template-columns: auto;
+    grid-template-columns: auto; /* организует карточки в одну колонку на низких разрешениях */
     gap: 32px;
   }
 }

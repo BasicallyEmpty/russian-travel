@@ -2,10 +2,12 @@
   margin: 0 auto;
   padding: 0;
   display: grid;
-  max-width: calc(100% - 48px * 2);
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  max-width: calc(100% - 48px * 2); /* позволяет плавно изменять ширину блока без использования margin, сохраняя отступ */
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr)); /* реализован перенос элементов сетки при сжатии окна */
   gap: 16px;
 }
+
+/* плавное изменение ширины блока и отступов без скачков */
 
 @media screen and (max-width: 1024px) {
   .photo-grid {

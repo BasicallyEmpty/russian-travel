@@ -1,11 +1,13 @@
 .places {
   margin: 0 auto;
   padding: 0;
-  max-width: calc(100% - 148px * 2);
+  max-width: calc(100% - 148px * 2); /* позволяет плавно изменять ширину блока без использования margin, сохраняя отступ */
   display: flex;
   flex-direction: column;
   gap: 80px;
 }
+
+/* плавное изменение ширины блока и отступов без скачков */
 
 @media screen and (max-width: 1224px) {
   .places {
