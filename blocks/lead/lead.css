@@ -2,6 +2,30 @@
   margin: 0 auto;
   padding: 0;
   display: flex;
-  max-width: 984px;
+  max-width: calc(100% - 148px * 2);
   flex-direction: column;
+}
+
+@media screen and (max-width: 1224px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: calc(100% - 48px * 2);
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .lead {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+  }
 }

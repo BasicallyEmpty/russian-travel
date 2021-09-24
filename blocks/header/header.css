@@ -2,7 +2,31 @@
   margin: 0 auto;
   padding: 0;
   display: flex;
-  max-width: 1184px;
+  max-width: calc(100% - 48px * 2);
   min-height: 52px;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 864px) {
+  .header {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 816px) {
+  .header {
+    max-width: calc(100% - 24px * 2);
+  }
+}
+
+@media screen and (max-width: 473px) {
+  .header {
+    max-width: 425px;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .header {
+    max-width: calc(100% - 16px * 2);
+  }
 }

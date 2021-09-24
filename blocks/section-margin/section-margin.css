@@ -1,3 +1,17 @@
+/*устанавливает отступы между блоками страницы */
+
 .section-margin {
   margin: 92px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .section-margin {
+    margin: 88px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-margin {
+    margin: 64px auto;
+  }
 }

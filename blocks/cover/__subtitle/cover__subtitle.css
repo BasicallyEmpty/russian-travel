@@ -9,3 +9,10 @@
   z-index: 1;
   pointer-events: none; /* позволяет ссылке быть кликабельной в пределах всего блока, не перекрываясь заголовком */
 }
+
+@media screen and (max-width: 560px) {
+  .cover__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
