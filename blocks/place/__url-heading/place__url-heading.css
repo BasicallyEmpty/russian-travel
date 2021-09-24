@@ -5,3 +5,9 @@
   color: #aaa;
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 720px) {
+  .place__url-heading {
+    margin-left: 16px;
+  }
+}
