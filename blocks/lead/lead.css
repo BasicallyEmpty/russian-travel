@@ -6,15 +6,7 @@
   flex-direction: column;
 }
 
-/* плавное изменение ширины блока и отступов без скачков */
-
 @media screen and (max-width: 1224px) {
-  .lead {
-    max-width: 928px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
   .lead {
     max-width: calc(100% - 48px * 2);
   }
@@ -22,7 +14,7 @@
 
 @media screen and (max-width: 864px) {
   .lead {
-    max-width: 768px;
+    max-width: calc(100% - 24px * 2);
   }
 }
 
