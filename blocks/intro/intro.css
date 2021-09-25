@@ -4,15 +4,7 @@
   max-width: calc(100% - 148px * 2); /* позволяет плавно изменять ширину блока без использования margin, сохраняя отступ */
 }
 
-/* плавное изменение ширины блока и отступов без скачков */
-
 @media screen and (max-width: 1224px) {
-  .intro {
-    max-width: 928px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
   .intro {
     max-width: calc(100% - 48px * 2);
   }
@@ -20,23 +12,11 @@
 
 @media screen and (max-width: 864px) {
   .intro {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 816px) {
-  .intro {
     max-width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 473px) {
-  .intro {
-    max-width: 425px;
-  }
-}
-
-@media screen and (max-width: 457px) {
   .intro {
     max-width: calc(100% - 16px * 2);
   }

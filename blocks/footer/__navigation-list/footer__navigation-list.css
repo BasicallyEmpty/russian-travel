@@ -1,0 +1,12 @@
+.footer__navigation-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__navigation-list {
+    flex-direction: column; /* меняем расположение ссылок на низких разрешениях */
+  }
+}

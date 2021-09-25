@@ -6,15 +6,7 @@
   justify-content: space-between;
 }
 
-/* плавное изменение ширины блока и отступов без скачков */
-
 @media screen and (max-width: 864px) {
-  .footer {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 816px) {
   .footer {
     max-width: calc(100% - 24px * 2);
   }

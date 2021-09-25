@@ -2,6 +2,7 @@
   margin: 0;
   font-size: 12px;
   line-height: 20px;
+  text-transform: uppercase;
   color: #aaa;
   letter-spacing: 2px;
 }
