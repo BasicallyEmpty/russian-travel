@@ -1,5 +1,5 @@
 .header {
-  margin: 0 auto;
+  margin: 28px auto 0;
   padding: 0;
   display: flex;
   max-width: calc(100% - 48px * 2); /* позволяет плавно изменять ширину блока без использования margin, сохраняя отступ */
